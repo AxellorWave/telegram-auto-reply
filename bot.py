@@ -196,7 +196,7 @@ def bd_connect():
             mydb = mysql.connector.connect(
                 host='HOST',
                 user='USER',
-                port=3306,
+                port='PORT',
                 password='PASSWORD',
                 database='DATEBASE'
             )
